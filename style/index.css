@@ -1,0 +1,18 @@
+body {
+    transform-style: preserve-3d;
+} 
+p {
+    background: lightblue;
+    animation: a 2s infinite;
+    transform-style: preserve-3d;
+}
+/* @keyframes a {
+    from {
+    transform: rotateY(0deg);
+    background: lightblue;
+    }
+    to {
+    transform: rotateY(360deg);
+    background: lightgoldenrodyellow;
+    }
+} */
